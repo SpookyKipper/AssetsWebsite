@@ -10,3 +10,5 @@ function grouping1() {
   }
 
 }
+
+setTimeout(grouping1, 100)
