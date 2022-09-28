@@ -16,8 +16,8 @@ function grouping2() {
     let triageservices = document.createElement("h1");
     let triageservicesp = document.createElement("p");
     triageservices.appendChild(triageservicesp);
-    document.querySelector("#sapper > main > section.live-status.svelte-fqsq6s > article:nth-child(7)").parentNode.insertBefore(triageservices, document.querySelector("#sapper > main > section.live-status.svelte-fqsq6s > article:nth-child(1)"));
-    triageservicesp.after("Core Services");
+    document.querySelector("#sapper > main > section.live-status.svelte-fqsq6s > article:nth-child(7)").parentNode.insertBefore(triageservices, document.querySelector("#sapper > main > section.live-status.svelte-fqsq6s > article:nth-child(7)"));
+    triageservicesp.after("Triage Services");
   } else {
     setTimeout(grouping2, 100)
   }
@@ -29,7 +29,7 @@ function grouping3() {
     let otherservices = document.createElement("h1");
     let otherservicesp = document.createElement("p");
     otherservices.appendChild(otherservicesp);
-    document.querySelector("#sapper > main > section.live-status.svelte-fqsq6s > article:nth-child(9)").parentNode.insertBefore(otherservices, document.querySelector("#sapper > main > section.live-status.svelte-fqsq6s > article:nth-child(1)"));
+    document.querySelector("#sapper > main > section.live-status.svelte-fqsq6s > article:nth-child(9)").parentNode.insertBefore(otherservices, document.querySelector("#sapper > main > section.live-status.svelte-fqsq6s > article:nth-child(9)"));
     otherservicesp.after("Core Services");
   } else {
     setTimeout(grouping3, 100)
