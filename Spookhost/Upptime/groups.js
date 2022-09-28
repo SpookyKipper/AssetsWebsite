@@ -42,7 +42,7 @@ function grouping4() {
     let otherservices = document.createElement("h1");
     let otherservicesp = document.createElement("p");
     otherservices.appendChild(otherservicesp);
-    document.querySelector("#sapper > main > section.live-status.svelte-fqsq6s > article:nth-child(11)").parentNode.insertBefore(otherservices, document.querySelector("#sapper > main > section.live-status.svelte-fqsq6s > article:nth-child(9)"));
+    document.querySelector("#sapper > main > section.live-status.svelte-fqsq6s > article:nth-child(11)").parentNode.insertBefore(otherservices, document.querySelector("#sapper > main > section.live-status.svelte-fqsq6s > article:nth-child(11)"));
     otherservicesp.after("Other Services");
   } else {
     setTimeout(grouping4, 100)
