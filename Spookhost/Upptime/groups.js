@@ -12,11 +12,11 @@ function grouping1() {
 }
 
 function grouping2() {
-  if (document.querySelector("#sapper > main > section.live-status.svelte-fqsq6s > article:nth-child(7)") != null) {
+  if (document.querySelector("#sapper > main > section.live-status.svelte-fqsq6s > article:nth-child(6)") != null) {
     let triageservices = document.createElement("h1");
     let triageservicesp = document.createElement("p");
     triageservices.appendChild(triageservicesp);
-    document.querySelector("#sapper > main > section.live-status.svelte-fqsq6s > article:nth-child(7)").parentNode.insertBefore(triageservices, document.querySelector("#sapper > main > section.live-status.svelte-fqsq6s > article:nth-child(7)"));
+    document.querySelector("#sapper > main > section.live-status.svelte-fqsq6s > article:nth-child(6)").parentNode.insertBefore(triageservices, document.querySelector("#sapper > main > section.live-status.svelte-fqsq6s > article:nth-child(6)"));
     triageservicesp.after("Triage Services");
   } else {
     setTimeout(grouping2, 100)
