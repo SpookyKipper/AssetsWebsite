@@ -37,6 +37,19 @@ function grouping3() {
 
 }
 
+function grouping4() {
+  if (document.querySelector("#sapper > main > section.live-status.svelte-fqsq6s > article:nth-child(11)") != null) {
+    let otherservices = document.createElement("h1");
+    let otherservicesp = document.createElement("p");
+    otherservices.appendChild(otherservicesp);
+    document.querySelector("#sapper > main > section.live-status.svelte-fqsq6s > article:nth-child(11)").parentNode.insertBefore(otherservices, document.querySelector("#sapper > main > section.live-status.svelte-fqsq6s > article:nth-child(9)"));
+    otherservicesp.after("Other Services");
+  } else {
+    setTimeout(grouping4, 100)
+  }
+
+}
+setTimeout(grouping4, 100);
 setTimeout(grouping3, 100);
 setTimeout(grouping2, 100);
 setTimeout(grouping1, 100);
