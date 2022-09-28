@@ -30,7 +30,7 @@ function grouping3() {
     let otherservicesp = document.createElement("p");
     otherservices.appendChild(otherservicesp);
     document.querySelector("#sapper > main > section.live-status.svelte-fqsq6s > article:nth-child(9)").parentNode.insertBefore(otherservices, document.querySelector("#sapper > main > section.live-status.svelte-fqsq6s > article:nth-child(9)"));
-    otherservicesp.after("Core Services");
+    otherservicesp.after("Other Services");
   } else {
     setTimeout(grouping3, 100)
   }
