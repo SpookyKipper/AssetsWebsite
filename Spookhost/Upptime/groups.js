@@ -43,7 +43,7 @@ function grouping4() {
     let otherservicesp = document.createElement("p");
     otherservices.appendChild(otherservicesp);
     document.querySelector("#sapper > main > section.live-status.svelte-fqsq6s > article:nth-child(11)").parentNode.insertBefore(otherservices, document.querySelector("#sapper > main > section.live-status.svelte-fqsq6s > article:nth-child(11)"));
-    otherservicesp.after("Other Services");
+    otherservicesp.after("Third Party Services");
   } else {
     setTimeout(grouping4, 100)
   }
