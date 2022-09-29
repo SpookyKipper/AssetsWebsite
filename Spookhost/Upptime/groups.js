@@ -4,7 +4,7 @@ function grouping1() {
     let coreservicesp = document.createElement("p");
     coreservices.appendChild(coreservicesp);
     document.querySelector("#sapper > main > section.live-status.svelte-fqsq6s > article:nth-child(1)").parentNode.insertBefore(coreservices, document.querySelector("#sapper > main > section.live-status.svelte-fqsq6s > article:nth-child(1)"));
-    coreservicesp.after("Essential Services");
+    coreservicesp.after("Essentials");
   } else {
     setTimeout(grouping1, 100)
   }
@@ -17,7 +17,7 @@ function grouping2() {
     let triageservicesp = document.createElement("p");
     triageservices.appendChild(triageservicesp);
     document.querySelector("#sapper > main > section.live-status.svelte-fqsq6s > article:nth-child(6)").parentNode.insertBefore(triageservices, document.querySelector("#sapper > main > section.live-status.svelte-fqsq6s > article:nth-child(6)"));
-    triageservicesp.after("Triage Services");
+    triageservicesp.after("Tools");
   } else {
     setTimeout(grouping2, 100)
   }
@@ -30,7 +30,7 @@ function grouping3() {
     let otherservicesp = document.createElement("p");
     otherservices.appendChild(otherservicesp);
     document.querySelector("#sapper > main > section.live-status.svelte-fqsq6s > article:nth-child(9)").parentNode.insertBefore(otherservices, document.querySelector("#sapper > main > section.live-status.svelte-fqsq6s > article:nth-child(9)"));
-    otherservicesp.after("Other Services");
+    otherservicesp.after("Others");
   } else {
     setTimeout(grouping3, 100)
   }
@@ -43,7 +43,7 @@ function grouping4() {
     let otherservicesp = document.createElement("p");
     otherservices.appendChild(otherservicesp);
     document.querySelector("#sapper > main > section.live-status.svelte-fqsq6s > article:nth-child(11)").parentNode.insertBefore(otherservices, document.querySelector("#sapper > main > section.live-status.svelte-fqsq6s > article:nth-child(11)"));
-    otherservicesp.after("Third Party Services");
+    otherservicesp.after("Third Parties");
   } else {
     setTimeout(grouping4, 100)
   }
