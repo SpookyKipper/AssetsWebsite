@@ -10,6 +10,10 @@ http://redirect.monstaftp.com/upgrade
   background-color: #ffffff;
 }
 
+#slidebar-toggle {
+  display: none;
+}
+
 .toolbar button {
   background-color: #ffffff;
   border-bottom-color: #ffffff;
