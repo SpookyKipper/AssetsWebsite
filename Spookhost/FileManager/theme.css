@@ -10,9 +10,6 @@ http://redirect.monstaftp.com/upgrade
   background-color: #ffffff;
 }
 
-#slidebar-toggle {
-  display: none;
-}
 
 .toolbar button {
   background-color: #ffffff;
@@ -33,6 +30,7 @@ http://redirect.monstaftp.com/upgrade
 
 #slidebar i {
   border-bottom-color: #ffffff;
+  color: #6f6f6f;
 }
 
 #slidebar a {
