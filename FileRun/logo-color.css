@@ -1,0 +1,30 @@
+:root {
+--theme-bg: #FFFFFF;
+--theme-bg-transparent: rgba(255, 255, 255, 0.6);
+--theme-mask-hidden: rgba(0, 0, 0, 0);
+--theme-mask-shown: rgba(0, 0, 0, 0.5);
+--theme-mask-popups-hidden: rgba(255, 255, 255, 0);
+--theme-mask-popups-shown: rgba(255, 255, 255, 0.8);
+--theme-filelist-bg: #EEEEEE;
+--theme-menu-highlight: #e2e2e2;
+--theme-text: #323130;
+--theme-textHighContrast: #000;
+--theme-textLight: #5F6368;
+--theme-textLighter: #808080;
+--theme-textDanger: #c53929;
+--theme-textOnMain: #FFFFFF;
+--theme-textOnLighter: #c1763c;
+--theme-main: #d19465;
+--theme-lighter: #ffdfc6;
+--theme-folder: #323130;
+--hBCol: #E1E1E1;
+--sBCol: #EBEBEB;
+--sBr: 4px;
+--mBr: 8px;
+--theme-textFieldsBr: 2px;
+--pad: 24px;
+--marg: 15px;
+}
+
+/* style.css */
+html{-webkit-tap-highlight-color:transparent;-webkit-touch-callout:none}body{cursor:default;background:var(--theme-body-bg, var(--theme-bg)) no-repeat center center fixed;background-size:cover;margin:0}body,input,table,textarea{font:14px 'Roboto',Helvetica,Arial,sans-serif;color:var(--theme-text)}.fr-is-mobile,.fr-is-mobile table{font-size:16px}.ext-webkit :focus{outline:0}:-moz-focusring{outline:0}a,a[href]{color:var(--theme-main);text-decoration:none}a:focus{text-decoration:underline}a:hover{text-decoration:underline}#loadMsg{text-align:center;position:absolute;margin:auto;top:0;right:0;bottom:0;left:0;width:fit-content;height:fit-content}#loadMsg div{background-color:var(--theme-bg);border-radius:var(--sBr);border:1px solid var(--hBCol);padding:var(--marg)}html,html *{scrollbar-width:thin;scrollbar-color:var(--sBCol) transparent}::-webkit-scrollbar-thumb{transition:background-color .5s ease;border-radius:var(--sBr);background-color:transparent}::-webkit-scrollbar-track{border-radius:var(--sBr)}::-webkit-scrollbar-track:hover{background-color:var(--sBCol)}:hover::-webkit-scrollbar-thumb,:hover>:first-child::-webkit-scrollbar-thumb{background-color:var(--hBCol)}::-webkit-scrollbar-thumb:hover{background-color:var(--theme-main)!important}::-webkit-scrollbar{width:8px;height:8px}::-moz-scrollbar{width:8px;height:8px}table.niceborder{background-color:var(--hBCol)}table.niceborder td.header,table.niceborder tr.header td{background-color:var(--theme-lighter);font-weight:700}table.niceborder td{background-color:var(--theme-bg);padding:2px}.silver{color:silver}.gray{color:gray}.fa.icon-blue{color:#4285f4}.fa.icon-green{color:green}.colorDanger{color:var(--theme-textDanger)}
