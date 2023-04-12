@@ -68,24 +68,18 @@ if (domain.includes('selector')) {
         
 
 document.querySelector("body > main").innerHTML = responsetext.querySelector("body > main").innerHTML;
+ nanobar.go(100);
 
-
-realdomain = domain
+/*realdomain = domain
    //     Swal.close();
 		console.log("Restored");
         if (addtohistory) {
             history.pushState('', '', realdomain);
         }
-		document.title = responsetext.title;
+		document.title = responsetext.title;*/
 
      
-        nanobar.go(100);
-
-		 var options = {
-	             classname: 'nanobar',
-                 id: 'nanobar'
-	        };
-	        var nanobar = new Nanobar( options );
+       
 
 		//nanobar.go(100);
 
