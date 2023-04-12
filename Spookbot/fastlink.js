@@ -66,9 +66,8 @@ if (domain.includes('selector')) {
         var s = document.querySelector("#sidebarnav > li.nav-item.dropdown");
 
         
-        setInnerHTML(document.querySelector("body > main"), responsetext.querySelector("body > main").innerHTML);
 
-
+document.querySelector("body > main") = responsetext.querySelector("body > main").innerHTML'
 
 
 realdomain = domain
