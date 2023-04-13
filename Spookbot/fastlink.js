@@ -105,7 +105,7 @@ if (domain.includes('selector')) {
 		//  }
 
 		// setTimeout(updatepage, 10);
-     setTimeout(function() {document.querySelector('#backdrop-text').innerHTML = "Loading"}, 1000)
+   //  setTimeout(function() {document.querySelector('#backdrop-text').innerHTML = "Loading"}, 1000)
         } else {
 
            // function statuscodealert() {
