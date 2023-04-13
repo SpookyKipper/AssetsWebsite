@@ -87,7 +87,7 @@ if (domain.includes('selector')) {
 		
  nanobar.go(100);
 	}
-		setTimeout(fullComplete, 1000);
+		setTimeout(fullComplete, 250);
 /*realdomain = domain
    //     Swal.close();
 		console.log("Restored");
