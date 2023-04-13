@@ -58,7 +58,7 @@ function changelink(domain, addtohistory = true) {
 		//   document.body = responsetext.body;
         var s = document.querySelector("#sidebarnav > li.nav-item.dropdown");
 
-        #sidenav-main
+       
 
 document.querySelector("body > main").innerHTML = responsetext.querySelector("body > main").innerHTML;
 	document.querySelector("#sidenav-main").innerHTML = responsetext.querySelector("#sidenav-main").innerHTML;
