@@ -62,12 +62,12 @@ function changelink(domain, addtohistory = true) {
 
 document.querySelector("body > main").innerHTML = responsetext.querySelector("body > main").innerHTML;
 	document.querySelector("#sidenav-main").innerHTML = responsetext.querySelector("#sidenav-main").innerHTML;
-	
+	function fullComplete() {
 if (domain.includes('selector')) {
     document.querySelector('#nav-selector').classList.add('active');
 	
-    document.querySelector('#nav-greeting').classList.remove('active');
-    document.querySelector('#nav-basic').classList.remove('active');
+   // document.querySelector('#nav-greeting').classList.remove('active');
+   // document.querySelector('#nav-basic').classList.remove('active');
 	
 } else if (domain.includes('greeting')) {
     document.querySelector('#nav-greeting').classList.add('active');
@@ -86,7 +86,8 @@ if (domain.includes('selector')) {
 		
 		
  nanobar.go(100);
-
+	}
+		setTimeout(fullComplete, 1000);
 /*realdomain = domain
    //     Swal.close();
 		console.log("Restored");
