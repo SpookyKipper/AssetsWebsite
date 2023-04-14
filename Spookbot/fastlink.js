@@ -77,7 +77,7 @@ if (domain.includes('selector')) {
     document.querySelector('#nav-basic').classList.remove('active');
 	
 	
-} else (domain.includes('basic')) {
+} else  { //(domain.includes('basic'))
     document.querySelector('#nav-basic').classList.add('active');
 	
     document.querySelector('#nav-greeting').classList.remove('active');
