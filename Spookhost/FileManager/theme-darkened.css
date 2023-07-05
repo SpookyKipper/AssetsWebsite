@@ -259,3 +259,34 @@ div#files {
 ::-webkit-scrollbar-thumb:hover {
   background-color: #5a4fcf;
 }
+
+
+.mtk14 {
+    color: #fb6c6c!important;
+}
+
+span.mtk6 {
+    color: #8080ff;
+}
+
+.mtk10 {
+    color: #898989!important;
+}
+
+::selection {
+    background: #5a4fcf;
+    color: white;
+}
+
+::moz-selection {
+    background: #5a4fcf;
+    color: white;
+}
+
+select.form-control.ng-valid.ng-touched.ng-not-empty.ng-dirty.ng-valid-parse {
+    background-color: #1a1c23;
+}
+
+.float-right {
+    display: none!important;
+}
