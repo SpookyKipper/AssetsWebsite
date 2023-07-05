@@ -197,3 +197,29 @@ a.ng-binding:hover {
 ul.dropdown-menu.ng-scope {
     background: #1a1c23;
 }
+
+
+.view-lines, .margin-view-overlays {
+    background: #1a1c23;
+}
+
+.line-numbers {
+    color: #f6f8ff9e!important;
+}
+
+ul.dropdown-menu {
+    background: #1a1c23!important;
+}
+
+.dropdown-menu li a, .dropdown-menu .active a {
+    background-color: #1a1c23!important;
+    color: white!important;
+}
+
+li.ng-scope.active.in:hover {
+    background-color: #5457629e!important;
+}
+
+#modal-editor .dropup a:hover {
+    background-color: inherit!important;
+}
