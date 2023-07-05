@@ -158,18 +158,10 @@ button.btn.btn-default.float-left.ng-scope {
     background: #1a1c23;
 }
 
-tr.context-catcher-tr.ng-scope.tr-odd {
-    background-color: #5457629e!important;
-}
 
 tr.context-catcher-tr.ng-scope.tr-even {
-    background: #1a1c23!important;
+    background-color: #000000!important;
 }
-
-tr.context-catcher-tr.ng-scope.tr-even {
-    background-color: #5457629e!important;
-}
-
 tr.context-catcher-tr.ng-scope.tr-odd {
     background: #1a1c23!important;
 }
@@ -222,4 +214,24 @@ li.ng-scope.active.in:hover {
 
 #modal-editor .dropup a:hover {
     background-color: inherit!important;
+}
+
+span.mtk1 {
+    color: #ffffffde;
+}
+
+tr.context-catcher-tr.ng-scope {
+    color: white;
+}
+
+thead.mobile-hide {
+    background: #1a1c23;
+}
+
+span.ng-binding.ng-isolate-scope {
+    color: white;
+}
+
+#files td.permissions.ng-binding {
+    color: white!important;
 }
