@@ -52,7 +52,6 @@ http://redirect.monstaftp.com/upgrade
 }
 
 #slidebar i:hover {
-  background-color: #dddbdb;
   border-bottom-color: #5a4fcf;
 }
 
@@ -154,8 +153,8 @@ button#slidebar-toggle{
   border-color: #1a1c23!important;
 }
 
-button#slidebar-toggle:hover, button.fa.fa-refresh.fa-fw:hover, button.fa.fa-chevron-right.fa-fw.active:hover, button.fa.fa-chevron-left.fa-fw.active:hover, button.fa.fa-info-circle.fa-fw:hover, button.fa.fa-refresh.fa-fw, button.fa.fa-chevron-right.fa-fw, button.fa.fa-chevron-left.fa-fw, button.fa.fa-info-circle.fa-fw, button.fa.fa-fw.fa-key.active:hover, button.fa.fa-fw.fa-trash.active:hover, button.fa.fa-fw.fa-clipboard.active:hover, button.fa.fa-fw.fa-copy.active:hover, button.fa.fa-fw.fa-cut.active:hover, button.fa.fa-fw.fa-pencil-square-o.active:hover, button.fa.fa-plus-square-o.fa-fw.active:hover, button.fa.fa-fw.fa-cloud-download.active:hover, button.fa.fa-fw.fa-download.active:hover, button.fa.fa-upload.fa-fw.active:hover  {
-  border-bottom-color: #5a4fcf;
+button#slidebar-toggle:hover, button.fa.fa-refresh.fa-fw:hover, button.fa.fa-chevron-right.fa-fw.active:hover, button.fa.fa-chevron-left.fa-fw.active:hover, button.fa.fa-info-circle.fa-fw:hover, button.fa.fa-refresh.fa-fw, button.fa.fa-chevron-right.fa-fw, button.fa.fa-chevron-left.fa-fw, button.fa.fa-fw.fa-key.active:hover, button.fa.fa-fw.fa-trash.active:hover, button.fa.fa-fw.fa-clipboard.active:hover, button.fa.fa-fw.fa-copy.active:hover, button.fa.fa-fw.fa-cut.active:hover, button.fa.fa-fw.fa-pencil-square-o.active:hover, button.fa.fa-plus-square-o.fa-fw.active:hover, button.fa.fa-fw.fa-cloud-download.active:hover, button.fa.fa-fw.fa-download.active:hover, button.fa.fa-upload.fa-fw.active:hover  {
+  border-bottom-color: #5a4fcf!important;
 }
 
 .toolbar button.active, .ng-binding, td.permissions.ng-binding, #files thead td, #slidebar i, i.fa.fa-life-ring.fa-fw {
@@ -184,4 +183,12 @@ a.ng-binding {
 button.btn.btn-default.float-left.ng-scope {
     color: white;
     background: #1a1c23;
+}
+
+.toolbar button {
+    border-bottom-color: #1a1c23;
+}
+
+#slidebar i:hover {
+  background-color: #5457629e;
 }
