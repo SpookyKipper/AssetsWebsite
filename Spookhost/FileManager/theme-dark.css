@@ -146,7 +146,7 @@ http://redirect.monstaftp.com/upgrade
 }
 
 
-div#header, button#slidebar-toggle, button.fa.fa-refresh.fa-fw, button.fa.fa-chevron-right.fa-fw, button.fa.fa-chevron-left.fa-fw, div#files, tr.context-catcher-tr.ng-scope.tr-even, div#footer, button.fa.fa-info-circle.fa-fw, ul.dropdown-menu.dropdown-menu-right, button.fa.fa-fw.fa-key, button.fa.fa-fw.fa-trash, button.fa.fa-fw.fa-clipboard, button.fa.fa-fw.fa-copy, button.fa.fa-fw.fa-cut, button.fa.fa-fw.fa-pencil-square-o, button.fa.fa-plus-square-o.fa-fw, button.fa.fa-fw.fa-cloud-download, button.fa.fa-fw.fa-download, button.fa.fa-upload.fa-fw, div#slidebar {
+div#header, button#slidebar-toggle, button.fa.fa-refresh.fa-fw, button.fa.fa-chevron-right.fa-fw, button.fa.fa-chevron-left.fa-fw, div#files, tr.context-catcher-tr.ng-scope.tr-even, div#footer, button.fa.fa-info-circle.fa-fw, ul.dropdown-menu.dropdown-menu-right, button.fa.fa-fw.fa-key, button.fa.fa-fw.fa-trash, button.fa.fa-fw.fa-clipboard, button.fa.fa-fw.fa-copy, button.fa.fa-fw.fa-cut, button.fa.fa-fw.fa-pencil-square-o, button.fa.fa-plus-square-o.fa-fw, button.fa.fa-fw.fa-cloud-download, button.fa.fa-fw.fa-download, button.fa.fa-upload.fa-fw, div#slidebar, .modal-body, .modal-footer {
     background: #1a1c23;
 }
 
@@ -168,4 +168,20 @@ tr.context-catcher-tr.ng-scope.tr-even.ui-selected {
 
 #slidebar i {
     border-bottom-color: #353535;
+}
+
+input {
+    background-color: #333;
+    border: 2px solid #ffffff3d;
+    border-radius: 10px;
+    color: white!important;
+}
+
+a.ng-binding {
+    background: #1a1c23!important;
+}
+
+button.btn.btn-default.float-left.ng-scope {
+    color: white;
+    background: #1a1c23;
 }
