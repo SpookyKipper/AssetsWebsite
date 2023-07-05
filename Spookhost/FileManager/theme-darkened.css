@@ -177,11 +177,11 @@ tr.context-catcher-tr.ng-scope.tr-odd {
 
 a.ng-binding {
     background: #1a1c23!important;
-    color: white;
+    color: #ffffffbf!important;
 }
 
-a.ng-binding {
-    background: #1a1c23!important;
+a.ng-binding:hover {
+    background: #5457629e!important;
 }
 
 .input-wrapper {
@@ -191,4 +191,9 @@ a.ng-binding {
 .btn-primary:hover {
     background-color: #6f65dc;
     opacity: 0.8;
+}
+
+
+ul.dropdown-menu.ng-scope {
+    background: #1a1c23;
 }
