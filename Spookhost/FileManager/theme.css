@@ -151,3 +151,6 @@ http://redirect.monstaftp.com/upgrade
 }
 
 
+div#session {
+    display: none!important;
+}
