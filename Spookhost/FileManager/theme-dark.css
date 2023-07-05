@@ -145,6 +145,8 @@ http://redirect.monstaftp.com/upgrade
 }
 
 
+
+// DARK MODE CSS START //
 div#header, button#slidebar-toggle, button.fa.fa-refresh.fa-fw, button.fa.fa-chevron-right.fa-fw, button.fa.fa-chevron-left.fa-fw, div#files, tr.context-catcher-tr.ng-scope.tr-even, div#footer, button.fa.fa-info-circle.fa-fw, ul.dropdown-menu.dropdown-menu-right, button.fa.fa-fw.fa-key, button.fa.fa-fw.fa-trash, button.fa.fa-fw.fa-clipboard, button.fa.fa-fw.fa-copy, button.fa.fa-fw.fa-cut, button.fa.fa-fw.fa-pencil-square-o, button.fa.fa-plus-square-o.fa-fw, button.fa.fa-fw.fa-cloud-download, button.fa.fa-fw.fa-download, button.fa.fa-upload.fa-fw, div#slidebar, .modal-body, .modal-footer {
     background: #1a1c23;
 }
@@ -153,7 +155,7 @@ button#slidebar-toggle{
   border-color: #1a1c23!important;
 }
 
-button#slidebar-toggle:hover, button.fa.fa-refresh.fa-fw:hover, button.fa.fa-chevron-right.fa-fw.active:hover, button.fa.fa-chevron-left.fa-fw.active:hover, button.fa.fa-info-circle.fa-fw:hover, button.fa.fa-refresh.fa-fw, button.fa.fa-chevron-right.fa-fw, button.fa.fa-chevron-left.fa-fw, button.fa.fa-fw.fa-key.active:hover, button.fa.fa-fw.fa-trash.active:hover, button.fa.fa-fw.fa-clipboard.active:hover, button.fa.fa-fw.fa-copy.active:hover, button.fa.fa-fw.fa-cut.active:hover, button.fa.fa-fw.fa-pencil-square-o.active:hover, button.fa.fa-plus-square-o.fa-fw.active:hover, button.fa.fa-fw.fa-cloud-download.active:hover, button.fa.fa-fw.fa-download.active:hover, button.fa.fa-upload.fa-fw.active:hover  {
+button#slidebar-toggle:hover, button.fa.fa-refresh.fa-fw:hover, button.fa.fa-chevron-right.fa-fw.active:hover, button.fa.fa-chevron-left.fa-fw.active:hover, button.fa.fa-info-circle.fa-fw:hover, button.fa.fa-refresh.fa-fw, button.fa.fa-chevron-right.fa-fw:hover, button.fa.fa-chevron-left.fa-fw:hover, button.fa.fa-fw.fa-key.active:hover, button.fa.fa-fw.fa-trash.active:hover, button.fa.fa-fw.fa-clipboard.active:hover, button.fa.fa-fw.fa-copy.active:hover, button.fa.fa-fw.fa-cut.active:hover, button.fa.fa-fw.fa-pencil-square-o.active:hover, button.fa.fa-plus-square-o.fa-fw.active:hover, button.fa.fa-fw.fa-cloud-download.active:hover, button.fa.fa-fw.fa-download.active:hover, button.fa.fa-upload.fa-fw.active:hover  {
   border-bottom-color: #5a4fcf!important;
 }
 
@@ -191,4 +193,28 @@ button.btn.btn-default.float-left.ng-scope {
 
 #slidebar i:hover {
   background-color: #5457629e;
+}
+
+ul.dropdown-menu.ng-scope {
+    background: #1a1c23;
+}
+
+a.ng-binding:hover {
+    background: #5457629e!important;
+}
+
+tr.context-catcher-tr.ng-scope.tr-odd {
+    background-color: #5457629e!important;
+}
+
+tr.context-catcher-tr.ng-scope.tr-even {
+    background: #1a1c23!important;
+}
+
+tr.context-catcher-tr.ng-scope.tr-even {
+    background-color: #5457629e!important;
+}
+
+tr.context-catcher-tr.ng-scope.tr-odd {
+    background: #1a1c23!important;
 }
