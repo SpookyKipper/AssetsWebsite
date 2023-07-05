@@ -68,6 +68,7 @@
 
 #modal-editor .file-path {
   background-color: #5a4fcf;
+  color: #d5d5d5;
 }
 
 #files .ui-selecting, #files .ui-selected {
