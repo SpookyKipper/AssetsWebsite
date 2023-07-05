@@ -235,3 +235,8 @@ span.ng-binding.ng-isolate-scope {
 #files td.permissions.ng-binding {
     color: white!important;
 }
+
+
+div#files {
+    background-color: #1a1c23;
+}
