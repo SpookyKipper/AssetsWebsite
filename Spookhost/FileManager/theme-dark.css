@@ -1,0 +1,171 @@
+/*
+Use our theme wizard to easily rebrand with your own colors and logo
+http://redirect.monstaftp.com/theme-wizard
+
+Rebranding is only available in the Enterprise Edition
+http://redirect.monstaftp.com/upgrade
+*/
+
+.toolbar {
+  background-color: #ffffff;
+}
+
+
+.toolbar button {
+  background-color: #ffffff;
+  border-bottom-color: #ffffff;
+}
+
+.toolbar button.inactive {
+  color: #6f6f6f;
+}
+
+.toolbar button.active {
+  color: #6f6f6f;
+}
+
+#slidebar {
+  background-color: #ffffff;
+}
+
+#slidebar i {
+  border-bottom-color: #ffffff;
+  color: #6f6f6f;
+}
+
+#slidebar a {
+  color: #6f6f6f;
+}
+
+#modal-editor .file-path {
+  border-color: #ffffff;
+}
+
+#modal-editor .modal-footer {
+  background-color: #ffffff;
+  color: #6f6f6f;
+}
+
+.toolbar button.active:hover {
+  background-color: #dddbdb;
+  border-bottom-color: #5a4fcf;
+}
+
+#slidebar i:hover {
+  background-color: #dddbdb;
+  border-bottom-color: #5a4fcf;
+}
+
+#history .dropdown-menu {
+  background-color: #a69af2;
+  border-left-color: #6f65dc;
+}
+
+#history button {
+  background-color: #6f65dc;
+  color: #ffffff;
+}
+
+#history ul li:hover {
+  background-color: #a69af2;
+}
+
+#breadcrumb {
+  background-color: #a69af2;
+}
+
+#modal-editor .file-path {
+  background-color: #a69af2;
+}
+
+#files .ui-selecting, #files .ui-selected {
+  background-color: #bfb8f0;
+}
+
+#files .ui-selecting:first-child, #files .ui-selected:first-child {
+  border-top-color: #bfb8f0;
+}
+
+#files td.icon .fa-folder, #files td.icon .fa-level-up {
+  color: #5a4fcf;
+}
+
+#files td.icon i {
+  color: #6f65dc;
+}
+
+#modal-transfers .icon i {
+  color: #6f65dc;
+}
+
+.dropdown-menu li a:hover, .dropdown-menu .active a:hover {
+  background-color: #6f65dc;
+}
+
+.toolbar .logo {
+  background: url('https://spookhost.xyz/assets/img/logo.png') no-repeat center center;
+  background-size: 144px 33px;
+  height: 33px;
+  width: 144px;
+}
+
+@media (max-width:1000px) {
+  .toolbar .logo {
+    background: url('https://spookhost.xyz/assets/img/logo.png') no-repeat center center;
+    background-size: 144px [cp18h];
+    background-position: -26px;
+    width: 29px;
+  }
+}
+
+#modal-editor .modal-footer .logo {
+  background: url('https://spookhost.xyz/assets/img/logo.png') no-repeat center center;
+  background-size: 100px 23px;
+  height: 23px;
+  width: 100px;
+}
+
+@media (max-width:1000px) {
+  #modal-editor .modal-footer .logo {
+    background: url('https://spookhost.xyz/assets/img/logo.png') no-repeat center center;
+    background-size: 100px [cp19h];
+    background-position: -17px;
+    width: 23px;
+  }
+}
+
+.label-warning {
+  background-color: #5a4fcf;
+  color: #ffffff;
+  
+}
+
+.btn-primary {
+  background-color: #6f65dc;
+  color: #ffffff;
+}
+
+
+div#header, button#slidebar-toggle, button.fa.fa-refresh.fa-fw, button.fa.fa-chevron-right.fa-fw, button.fa.fa-chevron-left.fa-fw, div#files, tr.context-catcher-tr.ng-scope.tr-even, div#footer, button.fa.fa-info-circle.fa-fw, ul.dropdown-menu.dropdown-menu-right, button.fa.fa-fw.fa-key, button.fa.fa-fw.fa-trash, button.fa.fa-fw.fa-clipboard, button.fa.fa-fw.fa-copy, button.fa.fa-fw.fa-cut, button.fa.fa-fw.fa-pencil-square-o, button.fa.fa-plus-square-o.fa-fw, button.fa.fa-fw.fa-cloud-download, button.fa.fa-fw.fa-download, button.fa.fa-upload.fa-fw, div#slidebar {
+    background: #1a1c23;
+}
+
+button#slidebar-toggle{
+  border-color: #1a1c23!important;
+}
+
+button#slidebar-toggle:hover, button.fa.fa-refresh.fa-fw:hover, button.fa.fa-chevron-right.fa-fw.active:hover, button.fa.fa-chevron-left.fa-fw.active:hover, button.fa.fa-info-circle.fa-fw:hover, button.fa.fa-refresh.fa-fw, button.fa.fa-chevron-right.fa-fw, button.fa.fa-chevron-left.fa-fw, button.fa.fa-info-circle.fa-fw, button.fa.fa-fw.fa-key.active:hover, button.fa.fa-fw.fa-trash.active:hover, button.fa.fa-fw.fa-clipboard.active:hover, button.fa.fa-fw.fa-copy.active:hover, button.fa.fa-fw.fa-cut.active:hover, button.fa.fa-fw.fa-pencil-square-o.active:hover, button.fa.fa-plus-square-o.fa-fw.active:hover, button.fa.fa-fw.fa-cloud-download.active:hover, button.fa.fa-fw.fa-download.active:hover, button.fa.fa-upload.fa-fw.active:hover  {
+  border-bottom-color: #5a4fcf;
+}
+
+.toolbar button.active, .ng-binding, td.permissions.ng-binding, #files thead td, #slidebar i, i.fa.fa-life-ring.fa-fw {
+  color: white!important;
+}
+
+tr.context-catcher-tr.ng-scope.tr-even.ui-selected {
+  background-color: #bfb8f0!important;
+}
+
+#slidebar i {
+    border-bottom-color: #353535;
+}
