@@ -289,3 +289,8 @@ select.form-control.ng-valid.ng-touched.ng-not-empty.ng-dirty.ng-valid-parse {
 div#session {
     display: none!important;
 }
+
+
+i.fa.fa-home.fa-fw {
+    color: white;
+}
