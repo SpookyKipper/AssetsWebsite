@@ -140,3 +140,36 @@
 body {
   background-color: #1a1c23;
 }
+
+
+input {
+    background-color: #333;
+    border: 2px solid #ffffff3d;
+    border-radius: 10px;
+    color: white!important;
+}
+
+.modal-body, .modal-footer {
+    background: #1a1c23;
+}
+
+button.btn.btn-default.float-left.ng-scope {
+    color: white;
+    background: #1a1c23;
+}
+
+tr.context-catcher-tr.ng-scope.tr-odd {
+    background-color: #5457629e!important;
+}
+
+tr.context-catcher-tr.ng-scope.tr-even {
+    background: #1a1c23!important;
+}
+
+tr.context-catcher-tr.ng-scope.tr-even {
+    background-color: #5457629e!important;
+}
+
+tr.context-catcher-tr.ng-scope.tr-odd {
+    background: #1a1c23!important;
+}
