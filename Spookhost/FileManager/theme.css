@@ -144,3 +144,8 @@ http://redirect.monstaftp.com/upgrade
   background-color: #6f65dc;
   color: #ffffff;
 }
+
+.btn-primary:hover {
+    background-color: #6f65dc;
+    opacity: 0.8;
+}
