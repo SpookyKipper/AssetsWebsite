@@ -286,7 +286,6 @@ span.mtk6 {
 select.form-control.ng-valid.ng-touched.ng-not-empty.ng-dirty.ng-valid-parse {
     background-color: #1a1c23;
 }
-
-.float-right {
+div#session {
     display: none!important;
 }
