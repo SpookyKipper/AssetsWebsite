@@ -182,3 +182,12 @@ a.ng-binding {
 a.ng-binding {
     background: #1a1c23!important;
 }
+
+.input-wrapper {
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #6f65dc;
+    opacity: 0.8;
+}
