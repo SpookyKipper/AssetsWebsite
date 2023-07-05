@@ -103,10 +103,10 @@ http://redirect.monstaftp.com/upgrade
 }
 
 .toolbar .logo {
-  background: url('https://spookhost.xyz/assets/img/logo.png') no-repeat center center;
-  background-size: 144px 33px;
-  height: 33px;
-  width: 144px;
+    background: url(https://cdn.spookhost.xyz/SpookhostMonsta.png) no-repeat center center;
+    background-size: 250.56px 57.42px;
+    height: 57.42px;
+    width: 250.56px;
 }
 
 @media (max-width:1000px) {
