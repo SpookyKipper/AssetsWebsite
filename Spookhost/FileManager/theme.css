@@ -154,3 +154,7 @@ http://redirect.monstaftp.com/upgrade
 div#session {
     display: none!important;
 }
+
+#modal-editor > div > div > div.modal-footer > button:nth-child(3) > span {
+    color: unset;
+}
