@@ -312,3 +312,8 @@ i.fa.fa-home.fa-fw {
 .modal-body.ng-binding, span.ng-binding, .license-type.ng-binding, span.ng-scope {
     color: white;
 }
+
+
+#breadcrumb li a {
+    color: white!important;
+}
