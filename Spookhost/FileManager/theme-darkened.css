@@ -321,3 +321,7 @@ i.fa.fa-home.fa-fw {
 .mtk5 {
     color: #6666cc!important;
 }
+
+#modal-editor > div > div > div.modal-footer > button:nth-child(3) > span {
+    color: #333!important;
+}
