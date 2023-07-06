@@ -295,3 +295,7 @@ div#session {
 i.fa.fa-home.fa-fw {
     color: white;
 }
+
+.property.ng-binding {
+    color: white;
+}
