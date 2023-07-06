@@ -209,7 +209,7 @@ ul.dropdown-menu {
     color: white!important;
 }
 
-li.ng-scope.active.in:hover {
+li.ng-scope:hover {
     background-color: #5457629e!important;
 }
 
