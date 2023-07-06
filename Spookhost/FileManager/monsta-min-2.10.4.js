@@ -1,5 +1,5 @@
 /*Spooky Kipper Injection for Spookhost */
-document.title = "Spookhost File Manager";
+document.title = "File Manager - Spookhost";
 console.log('Spookhost File Manager Loaded');
 const newFaviconUrl = "https://spookhost.xyz/assets/img/favicon.png"; // Replace with the URL of the new favicon image
 const oldFavicon = document.querySelector("link[rel='icon']") || document.querySelector("link[rel='shortcut icon']");
