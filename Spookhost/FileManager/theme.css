@@ -119,10 +119,10 @@ http://redirect.monstaftp.com/upgrade
 }
 
 #modal-editor .modal-footer .logo {
-  background: url('https://spookhost.xyz/assets/img/logo.png') no-repeat center center;
-  background-size: 100px 23px;
-  height: 23px;
-  width: 100px;
+    background: url(https://spookhost.xyz/assets/img/logo.png) no-repeat center center;
+    background-size: 124.519230769px 25px;
+    height: 25px;
+    width: 124.519230769px;
 }
 
 @media (max-width:1000px) {
