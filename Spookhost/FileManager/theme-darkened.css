@@ -350,3 +350,7 @@ input.input {
 .monaco-editor .find-widget > div {
     filter: brightness(3);
 }
+
+.mtk23 {
+    color: #4058ff!important;
+}
