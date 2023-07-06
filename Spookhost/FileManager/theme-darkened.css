@@ -299,3 +299,7 @@ i.fa.fa-home.fa-fw {
 .property.ng-binding {
     color: white;
 }
+
+.monaco-editor .cursor {
+    background-color: #9d9b9b;
+}
