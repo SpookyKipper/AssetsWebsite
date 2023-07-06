@@ -329,3 +329,24 @@ i.fa.fa-home.fa-fw {
 .mtk20 {
     color: #c83636!important;
 }
+
+.editor-widget.find-widget.visible {
+    background: #1a1c23!important;
+    color: white!important;
+}
+
+input.input {
+    background-color: #333!important;
+    border: #333!important;
+    border-radius: 0;
+    color: white!important;
+}
+
+.wrapper {
+    filter: brightness(0.2);
+}
+
+
+.monaco-editor .find-widget > div {
+    filter: brightness(3);
+}
