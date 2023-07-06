@@ -303,3 +303,8 @@ i.fa.fa-home.fa-fw {
 .monaco-editor .cursor {
     background-color: #9d9b9b;
 }
+.monaco-editor .selected-text {
+    background-color: #ADD8E6;
+    z-index: 1;
+    opacity: 0.2;
+}
