@@ -7,7 +7,7 @@
   "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userProperties ${user_properties} --userType ${user_type}",
   "mainClass": "net.minecraft.client.main.Main",
   "minimumLauncherVersion": 14,
-  "tlauncherVersion": 0,
+  "assets": "1.8",
   "libraries": [
     {
       "name": "com.mojang:netty:1.6"
@@ -245,8 +245,6 @@
       }
     }
   ],
-  "downloads": {},
-  "assets": "1.8",
   "logging": {
     "client": {
       "argument": "-Dlog4j.configurationFile\u003d${path}",
