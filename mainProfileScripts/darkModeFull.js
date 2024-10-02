@@ -6,9 +6,7 @@ const options = {
   label: '🌓', // default: ''
   autoMatchOsTheme: true // default: true
 }
-function addDarkmodeWidget() {
     new Darkmode(options).showWidget();
   console.log("Dark mode loaded");
 
-  }
-  window.addEventListener('load', addDarkmodeWidget);
+
