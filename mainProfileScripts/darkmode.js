@@ -1,11 +1,10 @@
-let dark = false
+let darkModeStatus = false
 function darkModeToggle() {
-    console.log("Dark Mode: " + dark);
-    if (dark == false) {
+    if (darkModeStatus == false) {
         const darkModeCSS = document.createElement("style");
         darkModeCSS.id = "darkmodecss";
         darkModeCSS.innerHTML = `
-        html, img, .cert-card::before, .conveythis-widget-language > div:nth-child(1), .darkmode-toggle {
+        html, img, .cert-card::before, .conveythis-widget-language > div:nth-child(1){
             filter: invert(1);
         }
         ::selection {
@@ -14,10 +13,21 @@ function darkModeToggle() {
         }
         `;
         document.head.appendChild(darkModeCSS);
-        dark = true;
+        darkModeStatus = true;
     } else {
         document.getElementById("darkmodecss")?.remove();
-        dark = false;
+        darkModeStatus = false;
     }
 }
-darkModeToggle();
+
+
+document.querySelector("#darkmode-toggle")?.addEventListener('click', darkModeToggle);
+console.log("Button Listener Added");
+
+console.log("Dark mode script loaded");
+
+if ((window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    darkModeToggle();
+    console.log("Detected browser dark theme");
+}
+
